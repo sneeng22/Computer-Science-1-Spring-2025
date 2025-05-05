@@ -79,7 +79,7 @@ while True: # selection menu AND while True starts infinte loop until cancelled 
     
     elif choice == "5": # selection "5" from menu selection "quit"
             print("Thank you for using the Unit Converter! Goodbye!") 
-            break # ends while True loop
+            break # ends while True selection conversion loop
 
     else: # invalid choice message 
         print("Invalid choice. Please select a valid selection and try again! (1-5): ")
