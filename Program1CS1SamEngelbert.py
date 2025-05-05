@@ -20,7 +20,7 @@ def unit_converter():
     name = input("What is your name? ")
     print(f"Hello there {name}, welcome to the Unit Converter!")
  # generation of selection menu
-while True: # selection menu AND while True starts infinte loop until cancelled by a line break 
+while True: # selection menu AND while True starts infinte loop until cancelled by a break 
     print (""" 
 1. Celsius-Farenheit
 2. Meters-Feet
