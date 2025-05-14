@@ -2,6 +2,10 @@
 # Program 1: Computer Science 1
 # Sam Engelbert 03/05/2025
 #_____________________________________________________
+
+name = input("What is your name? ")
+    print(f"Hello there {name}, welcome to the Unit Converter!")
+
 def celsius_to_farenheit(celsius): # celsius to fareheit conversion
     return(celsius * 9/5) + 32
  
@@ -17,9 +21,7 @@ def binary_to_decimal(binary): # binary to decimal number conversion
     return int(binary, 2)
 # user input seciton name and welcome message
 def unit_converter():
-    name = input("What is your name? ")
-    print(f"Hello there {name}, welcome to the Unit Converter!")
- # generation of selection menu
+     # generation of selection menu
 while True: # selection menu AND while True starts infinte loop until cancelled by a break 
     print (""" 
 1. Celsius-Farenheit
